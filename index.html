@@ -126,13 +126,13 @@
         font-size: 18px;
     }
 
-    .text2 {
+    .text3 {
         width: 50%;
         position: relative;
     }
 
     .img1 {
-    z-index: -1;
+        z-index: -1;
         right: 15%;
         bottom: -1%;
         width: 100%;
@@ -177,15 +177,15 @@
         header {
             display: flex;
             justify-content: center;
-            background-color: rgba(255, 255, 255, 0.951);
-            height: 14vh;
+            background-color: rgba(255, 255, 255, 0.774);
+            height: 10vh;
             width: 100%;
         }
 
         nav > a {
         font-size: 12px;
-        margin: 10px;
-        font-weight: 400;
+        margin: 8px;
+        font-weight: 500;
         text-decoration: none;
         color:  rgba(21, 1, 1, 1);
         transition: .5s ease;
@@ -202,32 +202,78 @@
         }
 
         .buy > a {
-            width: 0px;
+             border-radius:6px;
+             padding: 10px 50px ;
+             color: white;
+             background-color: rgb(251, 251, 251);
+             text-decoration: none;
+             font-size: 18px;
+             color: white;
+             font-size: 0px;
         }
 
-        
         .container {
             width: 97%;
         }
 
         .main {
+            width: 100%;
             flex-direction: column;
         }
 
         .text > h1 {
             line-height: 20px;
-            font-size: 18px;
+            font-size: 0px;
+        }
+
+        .text > p {
+            font-size: 0px;
         }
 
         .food > p {
             font-size: 16px;
             width:100%;
         }
-        
 
-    }
+        .text2 {
+            height: max-content;
+            width: 100%;
+            position: relative;
+        }
 
+        .text2 > .imges {
+            height: max-content;
+            margin-top: 50px;
+            width: 100%;
+        }
 
+        .text2 > .imges > .img1 {
+            right: 25%;
+            width: 40%;
+            top: -30%;
+            position: absolute;
+        }
+
+        .text2 > .imges > .img2 {
+            width: 50%;
+            right: 25%;
+            position: absolute;
+            text-align: center;
+        }s
+
+        .boxes {
+            width: 100%;
+            height: max-content;
+            margin-top: 200px;
+            flex-direction: column;
+        }
+
+        .box {
+            margin: 20px;
+        }
+
+  
+}
 </style>
 <body>
 
@@ -267,7 +313,7 @@
                 </div>
 
                 <div class="text2">
-                    <div class="img">
+                    <div class="imges">
                         <img class="img1" src="img/cream.png" alt="">
                         <img  class="img2" src="img/ice-cream.png" alt="">
                     </div>
@@ -318,7 +364,7 @@
                     </div>
                 </div>
     
-                <div class="text2">
+                <div class="text3">
                     <img class="img3" src="img/ice-cream2.png" alt="">
                     </div>
                 </div>
